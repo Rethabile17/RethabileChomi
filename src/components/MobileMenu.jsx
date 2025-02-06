@@ -67,6 +67,15 @@ export const MobileMenu = ({ menuOpen, setMenuOpen }) => {
       >
         Contact
       </a>
+
+      <div className="button-container">
+        <a href="https://drive.google.com/file/d/1y2-0koO0Vjdvtof4MtI14Nc7DFzMXP6u/view" download="Rethabile_Chomi_Resume.pdf">
+          <button type="button"  className="bg-yellow-500 text-white py-3 px-6 rounded font-medium transition relative overflow-hidden hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(59, 130, 246, 0.4)]">
+            <span className="button__text">Download CV</span>
+          </button>
+        </a>
+      </div>
+
     </div>
   );
 };

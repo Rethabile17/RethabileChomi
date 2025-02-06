@@ -10,7 +10,7 @@ export const Navbar = ({ menuOpen, setMenuOpen }) => {
         <div className="flex justify-between items-center h-16">
           <a href="#home" className="font-mono text-xl font-bold text-white">
             {" "}
-            Rethabile<span className="text-blue-500">.tech</span>{" "}
+            Rethabile<span className="text-yellow-500">.tech</span>{" "}
           </a>
 
           <div
@@ -52,7 +52,7 @@ export const Navbar = ({ menuOpen, setMenuOpen }) => {
 
             <div className="button-container">
         <a href="https://drive.google.com/file/d/1y2-0koO0Vjdvtof4MtI14Nc7DFzMXP6u/view" download="Rethabile_Chomi_Resume.pdf">
-          <button type="button"  className="bg-blue-500 text-white py-3 px-6 rounded font-medium transition relative overflow-hidden hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(59, 130, 246, 0.4)]">
+          <button type="button"  className="bg-yellow-500 text-white py-3 px-6 rounded font-medium transition relative overflow-hidden hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(59, 130, 246, 0.4)]">
             <span className="button__text">Download CV</span>
           </button>
         </a>

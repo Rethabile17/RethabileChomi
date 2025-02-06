@@ -18,7 +18,7 @@ export const About = () => {
     >
       <RevealOnScroll>
         <div className="max-w-3xl mx-auto px-4">
-          <h2 className="text-3xl font-bold mb-8 bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-transparent text-center">
+          <h2 className="text-3xl font-bold mb-8 bg-gradient-to-r from-yellow-500 to-cyan-400 bg-clip-text text-transparent text-center">
             {" "}
             About Me
           </h2>
@@ -75,7 +75,7 @@ export const About = () => {
               <ul className="list-disc list-inside text-gray-300 space-y-2">
                 <li>
                   <strong> Matric </strong> William  Pescod Hight School
-                  (2016-2020)
+                  (2015-2022)
                 </li>
                 <li>
                I did logo robots at School.
@@ -96,16 +96,7 @@ export const About = () => {
                   </p>
                 </div>
 
-                <div>
-                  <h4 className="font-semibold">
-                    {" "}
-                    Intern at DEF Startups (2019){" "}
-                  </h4>
-                  <p>
-                    Assisted in building front-end components and integration
-                    REST APIs
-                  </p>
-                </div>
+             
               </div>
             </div>
           </div>
