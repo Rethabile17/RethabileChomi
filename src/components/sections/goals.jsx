@@ -1,43 +1,38 @@
 import { RevealOnScroll } from "../RevealOnScroll";
 
-export const About = () => {
+export const Goals = () => {
   const frontendSkills = [
-    "React",
-    "JavaScript",
-    "Html",
-    'Css',
-    "React Native",
-    "TailwindCSS",
+    "Improve Performance & Optimization",
+    "Master Version Control (Git/GitHub)",
+    "Enhance UI/UX Skills",
+    "Contribute to Open Source",
+    'Develop Soft Skills',
+    "And Secure A Job"
   ];
 
-  const backendSkills = ["Node.js",  "MongoDB", 'Express Js', 'firbase'];
+  const backendSkills = ["Done IFA",  "Certificate of Sound System", 'Lego Robotics', 'Fence painter'];
 
   return (
     <section
-      id="about"
-      className="min-h-screen flex items-center justify-center py-20"
+      id="goal"
+      className="min-h-screen flex items-center justify-center py-10"
     >
       <RevealOnScroll>
         <div className="max-w-3xl mx-auto px-4">
           <h2 className="text-3xl font-bold mb-8 bg-gradient-to-r from-yellow-500 to-cyan-400 bg-clip-text text-transparent text-center">
             {" "}
-            About Me
+          Future goals and Plans
           </h2>
 
           <div className="rounded-xl p-8 border-white/10 border hover:-translate-y-1 transition-all">
-            <p className="text-gray-300 mb-6">
-            During my journey at CodeTribe Academy, I honed my skills by developing
-        projects such as a recipe app with CRUD functionality, a hotel booking
-        system with admin features, and a portfolio website. I excel in creating
-        responsive, functional, and visually appealing interfaces while
-        integrating authentication, API handling, and state management. My goal
+            <p className="text-gray-300 mb-6"> My goal
         is to grow as a full-stack developer, solve real-world problems through
         clean, maintainable code, and contribute to impactful projects.
             </p>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <div className="rounded-xl p-6 hover:-translate-y-1 transition-all">
-                <h3 className="text-xl font-bold mb-4"> Frontend</h3>
+                <h3 className="text-xl font-bold mb-4"> Goals</h3>
                 <div className="flex flex-wrap gap-2">
                   {frontendSkills.map((tech, key) => (
                     <span
@@ -53,7 +48,7 @@ export const About = () => {
               </div>
 
               <div className="rounded-xl p-6 hover:-translate-y-1 transition-all">
-                <h3 className="text-xl font-bold mb-4"> Backend</h3>
+                <h3 className="text-xl font-bold mb-4"> Achievements</h3>
                 <div className="flex flex-wrap gap-2">
                   {backendSkills.map((tech, key) => (
                     <span
@@ -70,7 +65,7 @@ export const About = () => {
             </div>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-4">
+          {/* <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8">
             <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all">
               <h3 className="text-xl font-bold mb-4"> 🏫 Education </h3>
               <ul className="list-disc list-inside text-gray-300 space-y-2">
@@ -79,7 +74,7 @@ export const About = () => {
                   (2015-2022)
                 </li>
                 <li>
-               I did logo robotics at School.
+               I did logo robots at School.
                 </li>
               </ul>
             </div>
@@ -100,7 +95,7 @@ export const About = () => {
              
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </RevealOnScroll>
     </section>
