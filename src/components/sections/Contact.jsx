@@ -13,18 +13,22 @@ export const Contact = () => {
     e.preventDefault();
 
     emailjs
-      .sendForm(
-        import.meta.env.VITE_SERVICE_ID,
-        import.meta.env.VITE_TEMPLATE_ID,
-        e.target,
-        import.meta.env.VITE_PUBLIC_KEY
-      )
-      .then((result) => {
+    .send(
+      "service_8v8fnt7", 
+      "template_0tqfh2k", 
+      formData,
+      "De-I5KLnpq_vffJhu" 
+    )
+    .then(
+      (result) => {
         alert("Message Sent!");
         setFormData({ name: "", email: "", message: "" });
-      })
-      .catch(() => alert("Oops! Something went wrong. Please try again."));
-  };
+      },
+      (error) => {
+        alert("Failed to send message. Please try again.");
+      }
+    );
+};
 
   return (
     <section
