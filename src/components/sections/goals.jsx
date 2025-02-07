@@ -10,7 +10,7 @@ export const Goals = () => {
     "And Secure A Job"
   ];
 
-  const backendSkills = ["Done IFA",  "Certificate of Sound System", 'Lego Robotics', 'Fence painter'];
+  const backendSkills = ["did network marketing at IFA",  "Certificate of Sound System", 'Lego Robotics', 'Fence painter'];
 
   return (
     <section
@@ -64,38 +64,6 @@ export const Goals = () => {
               </div>
             </div>
           </div>
-
-          {/* <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8">
-            <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all">
-              <h3 className="text-xl font-bold mb-4"> 🏫 Education </h3>
-              <ul className="list-disc list-inside text-gray-300 space-y-2">
-                <li>
-                  <strong> Matric </strong> William  Pescod Hight School
-                  (2015-2022)
-                </li>
-                <li>
-               I did logo robots at School.
-                </li>
-              </ul>
-            </div>
-            <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all">
-              <h3 className="text-xl font-bold mb-4"> 💼 Work Experience </h3>
-              <div className="space-y-4 text-gray-300">
-                <div>
-                  <h4 className="font-semibold">
-                    {" "}
-                    Software Engineer (Mobile Developer) at mLab  Codetribe academe (2024 - Present){" "}
-                  </h4>
-                  <p>
-                    Developed and maintained microservices for cloud-based
-                    applications.
-                  </p>
-                </div>
-
-             
-              </div>
-            </div>
-          </div> */}
         </div>
       </RevealOnScroll>
     </section>

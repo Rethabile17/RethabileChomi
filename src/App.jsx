@@ -9,6 +9,7 @@ import { Projects } from "./components/sections/Projects";
 import "./index.css";
 import { Contact } from "./components/sections/Contact";
 import { Goals } from "./components/sections/goals";
+import {Footer} from "./components/sections/footer";
 
 function App() {
   const [isLoaded, setIsLoaded] = useState(false);
@@ -29,6 +30,7 @@ function App() {
         <Projects />
         <Goals/>
         <Contact />
+        <Footer/>
       </div>
     </>
   );

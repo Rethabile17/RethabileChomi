@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { RevealOnScroll } from "../RevealOnScroll";
+import Swal from "sweetalert2";
 import emailjs from "emailjs-com";
 
 export const Contact = () => {
@@ -13,19 +14,24 @@ export const Contact = () => {
     e.preventDefault();
 
     emailjs
-    .send(
-      "service_8v8fnt7", 
-      "template_0tqfh2k", 
-      formData,
-      "De-I5KLnpq_vffJhu" 
-    )
+    .send("service_8v8fnt7", "template_0tqfh2k", formData, "De-I5KLnpq_vffJhu")
     .then(
       (result) => {
-        alert("Message Sent!");
+        Swal.fire({
+          icon: "success",
+          title: "Message Sent!",
+          text: "Your message has been successfully sent.",
+          confirmButtonColor: "#FFD700",
+        });
         setFormData({ name: "", email: "", message: "" });
       },
       (error) => {
-        alert("Failed to send message. Please try again.");
+        Swal.fire({
+          icon: "error",
+          title: "Failed to send message",
+          text: "Please try again.",
+          confirmButtonColor: "#FFD700",
+        });
       }
     );
 };
