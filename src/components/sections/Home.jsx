@@ -14,8 +14,8 @@ export const Home = () => {
 
           <p className="tex-gray-400 text-lg mb-8 max-w-lg mx-auto">
           I am a passionate and dedicated frontend developer with experience in
-            building user-focused applications using  HTML, CSS, JavaScript, React,
-            and Firebase.
+            building user-focused applications using  <span className="text-blue-400 ">HTML, CSS, JavaScript, React,
+            and Firebase.</span>
           </p>
           <div className="flex justify-center space-x-4">
             <a
